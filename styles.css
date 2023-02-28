@@ -4,8 +4,11 @@
   font-family: sans-serif;
 }
 
-body {
+.flex {
   display: flex;
+}
+
+.column {
   flex-direction: column;
 }
 
@@ -18,8 +21,6 @@ ul {
   padding: 2em;
   width: 70%;
   margin: auto;
-  display: flex;
-  flex-direction: column;
 }
 
 .bg-dark {
@@ -33,8 +34,6 @@ ul {
 }
 
 .top {
-
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -45,7 +44,6 @@ ul {
 }
 
 .links ul {
-  display: flex;
   justify-content: space-between;
   gap:10px;
 }
@@ -55,14 +53,12 @@ a {
 }
 
 .hero {
-  display: flex;
   padding: 6em 0 6em 0;
 }
 
 .hero-placeholder {
   background-color: rgb(102, 110, 116);
   width: 70%;
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
@@ -75,8 +71,6 @@ a {
 }
 
 .hero-text {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
   gap: .5em;
 }
@@ -93,8 +87,6 @@ a {
 .info{
   padding: 4em;
   align-self: center;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 4em;
 }
@@ -106,9 +98,7 @@ a {
 }
 
 .images ul {
-  display: flex;
   gap: 1em;
-
 }
 
 .image {
