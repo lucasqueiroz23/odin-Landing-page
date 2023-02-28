@@ -165,11 +165,25 @@ a {
   margin-right: 1em;
 }
 
-.call-to-action button:hover {
+button:hover {
   cursor: pointer;
 }
 
 .call-to-action-header {
   font-size: 24px;
   font-weight: bold;
+}
+
+.odin-link{
+  color: white;
+}
+
+.odin-link:hover{
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 2em;
+  font-size: 1em;
 }
