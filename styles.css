@@ -130,3 +130,46 @@ a {
   font-weight: bold;
   color:#1f2937;
 }
+
+.sign-up{
+  padding: 8em;
+}
+
+.call-to-action {
+  background-color:#3882F6;
+  justify-content: space-around;
+  border-radius: 1em;
+}
+
+.call-to-action * {
+  color: #F9FAF8;
+  padding: 3em;
+}
+
+.call-to-action-text {
+  justify-content: flex-start;
+}
+
+.call-to-action-text * {
+  padding: 0;
+}
+
+.call-to-action button {
+  background-color: #3882F6;
+  border: 2px solid white;
+  border-radius: .5em;
+  padding: .7em 2em;
+  font-weight: bold;
+  font-size: 1em;
+  align-self: center;
+  margin-right: 1em;
+}
+
+.call-to-action button:hover {
+  cursor: pointer;
+}
+
+.call-to-action-header {
+  font-size: 24px;
+  font-weight: bold;
+}
